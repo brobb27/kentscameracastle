@@ -1,0 +1,213 @@
+body {
+	text-align: center;
+}
+
+/* Navigation bar */
+
+#navbarStyle {
+	background-color: #3f72af;
+	padding-top: 3rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 14px;
+}
+
+/* Download buttons */
+
+.downloadButton {
+	margin: 10% 4% 5% 0;
+}
+
+/* Title section */
+
+#heading {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+#title {
+	background-color: #3f72af;
+	color: #fff;
+	padding-top: 2rem;
+	height: 40rem;
+	text-align: left;
+}
+
+.container-fluid {
+	padding: 2% 15%;
+}
+
+.imageOne {
+	transform: rotate(5deg);
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.titleImageProperties {
+	height: 15rem;
+	padding-top: 1.5rem;
+}
+
+.buyNowButton {
+	width: 25rem;
+	height: 4rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.buttonPosition {
+	margin: 8% 29% 5%;
+}
+
+.buyText {
+	text-align: center;
+	padding: 0 10% 0;
+}
+
+/* Features Section */
+
+#features {
+	background-color: #dbe2ef;
+	padding: 10% 12%;
+	position: relative;
+	z-index: 2;
+}
+
+.featureIcon {
+	font-size: 2.75rem;
+	color: #08699e;
+	margin-bottom: 1rem;
+}
+
+.featureIcon:hover {
+	color: #3f72af;
+}
+
+.featureFormat {
+	padding: 0 3%;
+	line-height: 1.5rem;
+}
+
+.featureText {
+	color: #8f8f8f;
+}
+
+.featureHeaderText {
+	font-size: 1.5rem;
+}
+
+.featureBreak {
+	color: black;
+}
+
+/* HDMI Section */
+
+#testimonials {
+	background-color: #08699e;
+	color: #fff;
+	height: 18rem;
+}
+
+.carousel-item {
+	padding: 10% 20% 5%;
+}
+
+.testimonialText {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+/* Cables */
+
+#cables {
+	background-color: #08699e;
+}
+
+.hdmiCableImage {
+	height: 14rem;
+	padding-bottom: 3rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+	padding: 80px;
+}
+.pricingPriceText {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+.pricingText {
+	font-size: 1.5rem;
+}
+.pricingColumn {
+	padding: 3% 2%;
+}
+.pricingButton {
+	width: 100%;
+}
+
+/* Call To Action */
+
+#cta {
+	background-color: #3f72af;
+	color: #fff;
+	padding: 5% 14%;
+}
+.ctaText {
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+/* Footer Section */
+
+#footer {
+	padding: 3%;
+	line-height: 3;
+	background-color: #dbe2ef;
+}
+
+.socialMedia {
+	color: rgb(71, 71, 71);
+	padding: 1%;
+}
+.copyright {
+	color: rgb(151, 151, 151);
+	font-size: 0.8rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1253px) {
+	.buttonPosition {
+		margin: 8% 25% 5%;
+	}
+}
+
+@media (max-width: 990px) {
+	.imageOne {
+		transform: rotate(0);
+		margin: auto;
+	}
+	.titleImageProperties {
+		padding-left: 0;
+	}
+	#title {
+		text-align: center;
+		margin: auto;
+		height: fit-content;
+	}
+	.buttonPosition {
+		margin: 10% 4% 5% 0;
+	}
+}
